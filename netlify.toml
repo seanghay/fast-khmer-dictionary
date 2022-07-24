@@ -1,0 +1,4 @@
+[[headers]]
+  for = "*.db" # js files should be set this way
+  [headers.values]
+    Cache-Control = "public, immutable, no-transform, s-maxage=31536000, max-age=31536000"
